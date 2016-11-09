@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14DF7501DD328B70045D670 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DF74F1DD328B70045D670 /* Demo.m */; };
 		C18ED0641DD2D13600BE8068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18ED0631DD2D13600BE8068 /* main.m */; };
 		C18ED0671DD2D13600BE8068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18ED0661DD2D13600BE8068 /* AppDelegate.m */; };
 		C18ED06A1DD2D13600BE8068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18ED0691DD2D13600BE8068 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14DF74E1DD328B70045D670 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		C14DF74F1DD328B70045D670 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 		C18ED05F1DD2D13600BE8068 /* SourceControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18ED0631DD2D13600BE8068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C18ED0651DD2D13600BE8068 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				C18ED06B1DD2D13600BE8068 /* Main.storyboard */,
 				C18ED06E1DD2D13600BE8068 /* Assets.xcassets */,
 				C18ED0701DD2D13600BE8068 /* LaunchScreen.storyboard */,
+				C14DF74E1DD328B70045D670 /* Demo.h */,
+				C14DF74F1DD328B70045D670 /* Demo.m */,
 				C18ED0731DD2D13600BE8068 /* Info.plist */,
 				C18ED0621DD2D13600BE8068 /* Supporting Files */,
 			);
@@ -272,6 +277,7 @@
 			files = (
 				C18ED06A1DD2D13600BE8068 /* ViewController.m in Sources */,
 				C18ED0671DD2D13600BE8068 /* AppDelegate.m in Sources */,
+				C14DF7501DD328B70045D670 /* Demo.m in Sources */,
 				C18ED0641DD2D13600BE8068 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				C18ED08E1DD2D13700BE8068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C18ED08F1DD2D13700BE8068 /* Build configuration list for PBXNativeTarget "SourceControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				C18ED0911DD2D13700BE8068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C18ED0921DD2D13700BE8068 /* Build configuration list for PBXNativeTarget "SourceControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				C18ED0941DD2D13700BE8068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
